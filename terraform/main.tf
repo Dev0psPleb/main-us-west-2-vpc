@@ -1,3 +1,4 @@
+# us-west-2
 terraform {
   backend "remote" {
     organization = "BrynardSecurity"
