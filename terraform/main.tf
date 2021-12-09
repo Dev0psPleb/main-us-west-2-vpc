@@ -133,7 +133,7 @@ module "vpn-gateway" {
 module "main-us-west-2-tgw" {
   source      = "terraform-aws-modules/transit-gateway/aws"
   version     = "~> 2.0"
-  name        = "dev-us-west-2-tgw-${local.build_date}"
+  name        = "main-us-west-2-tgw-${local.build_date}"
   description = "Hashicorp Vault HVN TGW"
 
   enable_auto_accept_shared_attachments = true
