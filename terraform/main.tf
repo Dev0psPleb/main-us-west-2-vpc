@@ -148,7 +148,7 @@ module "main-us-west-2-tgw" {
 
       tgw_routes = [
         {
-          destination_cidr_block = "10.99.0.0/16"
+          destination_cidr_block = "10.19.0.0/16"
         }
       ]
     }
@@ -158,7 +158,7 @@ module "main-us-west-2-tgw" {
   ram_principals                = [880955004141]
 
   tags = {
-    Purpose = "hvn-tgw-dev-us-east-2"
+    Purpose = "hvn-tgw-dev-us-west-2"
   }
 }
 
